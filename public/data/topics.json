@@ -1,0 +1,10 @@
+[
+  {"id":"ecg","name":"ECG/心电","description":"心电采集、波形分析与算法研究。"},
+  {"id":"eeg","name":"EEG/脑电","description":"脑电采集、神经信号处理与脑机接口。"},
+  {"id":"emg","name":"EMG/肌电","description":"肌肉电活动、动作识别与人机交互。"},
+  {"id":"ppg","name":"PPG","description":"光电容积脉搏波、光学采集与运动伪迹。"},
+  {"id":"eda","name":"EDA/皮电","description":"皮肤电活动、信号质量与自主神经相关指标。"},
+  {"id":"respiration","name":"呼吸","description":"呼吸运动、呼吸节律与多模态信号分析。"},
+  {"id":"sleep","name":"睡眠","description":"睡眠相关的脑电、呼吸、脉搏波与多模态研究。"},
+  {"id":"wearables","name":"可穿戴设备","description":"连续采集、低功耗设计与多传感器融合。"}
+]

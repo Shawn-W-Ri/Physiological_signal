@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="按生理信号主题组织论文、传感器与使用方法，并汇集每日新闻。"><title>Signal Daily · 生理信号研究主题</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/src/style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">∿</span><span>SIGNAL <b>DAILY</b><small>生理信号研究与实践</small></span></a><a class="archive-link" href="#view=daily">每日归档 ↗</a></header>
+<main>
+<section class="intro"><div><p class="eyebrow">THE BIOSIGNAL LIBRARY</p><h1>从研究论文，到采集实践。</h1><p class="sub">按信号探索论文、传感器与使用方法。</p></div><div class="issue"><span id="issue-label">持续积累 · 按研究方向组织</span><strong id="issue-date">主题知识库</strong><span id="update-state">正在读取资料…</span></div></section>
+<nav class="module-nav" aria-label="网站模块"><button type="button" data-view="topics" class="selected">研究主题</button><button type="button" data-view="daily">每日资讯</button><button type="button" data-view="import">添加论文 ↗</button></nav>
+<div class="workspace"><aside><p class="eyebrow">EXPLORE TOPICS</p><h2>研究主题</h2><nav id="topics" aria-label="主题筛选"></nav><p id="topic-count-label" class="muted"></p><section id="archives" hidden><p class="eyebrow">DAILY ARCHIVE</p><h2>日期归档</h2><label for="date-select">选择收录日期</label><select id="date-select"><option value="">暂无归档</option></select><p class="muted">按首次收录日归档，原文发表日期单独标注。</p></section><div class="source-note">开放来源 · 可追溯原文<br>arXiv / PubMed / DOI</div></aside>
+<div class="feed"><div class="feed-heading"><div><p class="eyebrow">RESEARCH & PRACTICE</p><h2><span id="view-title">研究主题</span> <span id="total-count"></span></h2></div><button id="reset" type="button">重置筛选</button></div><p id="view-subtitle" class="view-subtitle"></p><p id="notice" role="status" aria-live="polite"></p><nav id="category-tabs" class="category-tabs" aria-label="主题内容分类"></nav><div id="results" aria-live="polite"></div></div></div>
+</main><footer><span>SIGNAL DAILY <span class="muted">/ 生理信号研究观察</span></span><span>摘要仅供文献发现，请以原文为准。 <a href="https://www.ncbi.nlm.nih.gov/About/disclaimer.html" target="_blank" rel="noopener noreferrer">NCBI 声明</a></span></footer>
+<noscript>请启用 JavaScript 阅读资料，或直接查看 data/index.json。</noscript><script type="module" src="/src/library.js"></script>
+</body></html>
