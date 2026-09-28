@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "lastRun": "2026-09-28T11:35:18.230888+00:00",
+  "status": "partial",
+  "sources": [
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "ok": false,
+      "error": "URLError"
+    },
+    {
+      "id": "pubmed",
+      "name": "PubMed",
+      "ok": false,
+      "error": "URLError"
+    },
+    {
+      "id": "mit-wearables",
+      "name": "MIT News",
+      "ok": true,
+      "fetched": 26,
+      "added": 0
+    },
+    {
+      "id": "sciencedaily",
+      "name": "ScienceDaily",
+      "ok": true,
+      "fetched": 60,
+      "added": 4
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-09-28",
+      "items": [
+        {
+          "id": "675afad70b0affabc400",
+          "kind": "news",
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "title": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
+          "summary": "Pain and fatigue in rheumatoid arthritis can persist even after inflammation improves, with depression, poor sleep, obesity, smoking, and chronic pain potentially helping sustain symptoms. Researchers say identifying these hidden drivers could prevent unnecessary medication changes and lead to more personalized treatment.",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
+          "doi": "",
+          "published": "2026-09-27",
+          "collected": "2026-09-28",
+          "tags": [
+            "睡眠"
+          ]
+        },
+        {
+          "id": "a1e9351017dd3c76a30c",
+          "kind": "news",
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "title": "REM sleep paradox: Dreaming may drain the brain’s energy even as fuel supply rises",
+          "summary": "Scientists discovered a surprising energy paradox in the brain during REM sleep, the stage most closely associated with dreaming. Blood supply to the brain begins increasing even before REM starts, but neurons’ immediately available energy, measured as ATP, then drops. The finding suggests that dreaming may require such intense internal processing that neurons consume energy faster than it can be replenished.",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093206.htm",
+          "doi": "",
+          "published": "2026-09-26",
+          "collected": "2026-09-28",
+          "tags": [
+            "睡眠"
+          ]
+        },
+        {
+          "id": "894db569b2c9773aed4d",
+          "kind": "news",
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "title": "More REM sleep linked to lower risk of 83 diseases",
+          "summary": "A large study tracking more than 95,000 people suggests that how you sleep may be linked to your risk of developing dozens of diseases. People who spent more time in REM sleep had lower risks of 83 conditions, including dementia, heart failure, and Parkinson’s disease, while more deep sleep was associated with lower risks of conditions such as type 2 diabetes and major depression.",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+          "doi": "",
+          "published": "2026-09-23",
+          "collected": "2026-09-28",
+          "tags": [
+            "睡眠"
+          ]
+        },
+        {
+          "id": "d4eb0fa278eeb338ac25",
+          "kind": "news",
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "title": "Coffee doesn’t have to keep you awake to disrupt your sleep",
+          "summary": "Caffeine may make sleep less restorative even when you fall asleep normally and stay in bed for eight hours, with EEG recordings revealing fewer of the slow brain waves associated with deep sleep. Individual sensitivity varies dramatically, meaning even caffeine consumed earlier in the day could affect nighttime recovery for some people.",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260922005719.htm",
+          "doi": "",
+          "published": "2026-09-22",
+          "collected": "2026-09-28",
+          "tags": [
+            "EEG/脑电",
+            "睡眠"
+          ]
+        }
+      ]
+    }
+  ]
+}
